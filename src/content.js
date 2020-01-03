@@ -1,7 +1,6 @@
 const branchSpans = document.querySelectorAll('span.css-truncate-target');
 const targetBranch = branchSpans[1].innerHTML;
 const sourceBranch = branchSpans[2].innerHTML;
-console.log(`GHH believes you are trying to merge ${sourceBranch} into ${targetBranch}`);
 
 const mergeButtons = document.querySelectorAll('[data-details-container=".js-merge-pr"]');
 const mergeCommit = mergeButtons[0];
