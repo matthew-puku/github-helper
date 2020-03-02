@@ -14,3 +14,7 @@ If you are unhappy with the functionality of this extension, raise a PR.
 - Click _Load unpacked_ in the top left corner
 - Load the `src` directory
 - Enjoy
+
+## Re-installation
+
+Every time Chrome updates, you will need to re-install this extension. Sorry !
