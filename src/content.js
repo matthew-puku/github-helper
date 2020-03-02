@@ -2,7 +2,9 @@ const branchSpans = document.querySelectorAll('span.css-truncate-target');
 const targetBranch = branchSpans[1].innerHTML;
 const sourceBranch = branchSpans[2].innerHTML;
 
-const mergeButtons = document.querySelectorAll('[data-details-container=".js-merge-pr"]');
+const mergeButtons = document.querySelectorAll(
+  '[data-details-container=".js-merge-pr"]'
+);
 const mergeCommit = mergeButtons[0];
 const squash = mergeButtons[1];
 const rebase = mergeButtons[2];
